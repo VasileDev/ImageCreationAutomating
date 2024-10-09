@@ -10,7 +10,7 @@ def extract_text(pdf_path: str) -> list:
             pages.append(text)
     return pages
 
-pdf_path = "../100factspdf.pdf"
+pdf_path = "100factspdf.pdf"
 pages = extract_text(pdf_path)
 
 # removing the last page (it doesn't contain facts)
